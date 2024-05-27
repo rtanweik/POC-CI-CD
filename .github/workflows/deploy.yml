@@ -52,7 +52,7 @@ jobs:
               spec:
                 containers:
                   - name: drawio
-                    image: yourdockerhubusername/drawio:latest
+                    image: ryantan2103/drawio:latest
                     ports:
                       - containerPort: 8080
           ---
