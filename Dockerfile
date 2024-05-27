@@ -1,5 +1,5 @@
-FROM fjudith/draw.io
+FROM fjudith/draw.io:debian
 EXPOSE 8080
 
 # Update package lists and upgrade installed packages
-RUN apk update --no-cache
+RUN apt update
